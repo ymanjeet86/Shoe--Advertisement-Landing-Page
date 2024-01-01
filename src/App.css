@@ -4,20 +4,106 @@
 body{
   font-family: 'Poppins', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+background-color: rgb(161, 153, 153);
+margin-left: 10px;
 }
 
-nav{
+.Navbar{
   display: flex;
   justify-content: space-between;
-  max-width: 1440px;
+  max-width: 1240px;
   height: 72px;
-  margin-top: 5px;
+  margin:auto;
+  align-items: center;
+  color: aliceblue;
+  
 }
 
-nav ul{
+.Navbar ul{
   display: flex;
+  list-style: none;
+  gap: 24px; 
   
 }
 
 
+button{
+  all: unset;
+  padding: 4px 16px;
+  background: var(--red);
+  height: 32px;
+  color: aliceblue;
+  background-color: rgb(243, 43, 43);
+  font-weight: 500px;
+border-radius: 8px;
+}
 
+
+.container{
+display: flex;
+max-width: 1240px;
+height: calc(110vh -72px);
+margin: 0 auto;
+align-items: center;
+gap: 36px;
+}
+
+.content h1{
+  font-weight: 800;
+  font-size: 110px;
+  line-height: 120px;
+  padding-bottom: -20px;
+}
+
+.content p{
+  font-weight: 500;
+  color: rgb(29, 28, 28);
+  max-width: 400px;
+    
+}
+.ParaOne{
+  margin-top: -70px;
+}
+
+.contentButton{
+  display: flex;
+  gap: 40px;
+  font-size: 18px;
+  
+}
+.ShopButton{
+  border-radius: 3px;
+
+}
+.categoryButton{
+  background: transparent;
+  color: rgb(48, 42, 42);
+  border: 1px solid rgb(27, 26, 26);
+  border-radius: 3px;
+  color: aliceblue;
+  
+}
+
+.ShopSite p{
+  font-size: 16px;
+  color: rgb(44, 42, 42);
+  
+}
+.icons{
+  display: flex;
+  gap: 16px;
+
+  
+  
+}
+.imgIcons{
+  width: 25px;
+  height: 25px;
+}
+
+.shoeImage{
+  display: flex;
+  align-items: center;
+  margin-top: -60px;
+
+}
